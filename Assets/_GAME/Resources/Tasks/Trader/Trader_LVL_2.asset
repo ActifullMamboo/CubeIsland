@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0a681be3f9dff4996505e9d19c0f9c, type: 3}
+  m_Name: Trader_LVL_2
+  m_EditorClassIdentifier: 
+  TasksOnLevel:
+  - TaskID: 0
+    Tasks:
+    - ItemType: 1
+      ItemsCount: 10
+    Reward:
+      RewardID: 3
+      RewardText: TOOLS
+      RewardSprite: {fileID: 21300000, guid: e3b4e5d935f940e44889242a7f4bafe3, type: 3}
+      NeedCameraFocus: 1
+      DescriptionText: + <color=#139AFF>10</color> attack speed
+  - TaskID: 1
+    Tasks:
+    - ItemType: 2
+      ItemsCount: 10
+    - ItemType: 1
+      ItemsCount: 10
+    Reward:
+      RewardID: 42
+      RewardText: BACKPACK
+      RewardSprite: {fileID: 21300000, guid: 9a8eb920f94c69c46a2263ceaddaa22b, type: 3}
+      NeedCameraFocus: 1
+      DescriptionText: + <color=#139AFF>4</color> capacity

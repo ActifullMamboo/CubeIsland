@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0a681be3f9dff4996505e9d19c0f9c, type: 3}
+  m_Name: Level_2
+  m_EditorClassIdentifier: 
+  TasksOnLevel:
+  - TaskID: 0
+    Tasks:
+    - ItemType: 1
+      ItemsCount: 12
+    Reward:
+      RewardID: 11
+      RewardText: trader
+      RewardSprite: {fileID: 21300000, guid: 5043160b1df22e64daed1437fb643c64, type: 3}
+      NeedCameraFocus: 1
+      DescriptionText: 
+  - TaskID: 1
+    Tasks:
+    - ItemType: 1
+      ItemsCount: 12
+    - ItemType: 2
+      ItemsCount: 5
+    Reward:
+      RewardID: 31
+      RewardText: lumberjack
+      RewardSprite: {fileID: 21300000, guid: 396002c522ac506419f5f1963a5437b5, type: 3}
+      NeedCameraFocus: 1
+      DescriptionText: 
+  - TaskID: 2
+    Tasks:
+    - ItemType: 2
+      ItemsCount: 12
+    - ItemType: 1
+      ItemsCount: 17
+    Reward:
+      RewardID: 32
+      RewardText: farmer
+      RewardSprite: {fileID: 21300000, guid: af40eff1d47bd9246ab47979f8c210c1, type: 3}
+      NeedCameraFocus: 1
+      DescriptionText: 
+  - TaskID: 3
+    Tasks:
+    - ItemType: 2
+      ItemsCount: 19
+    - ItemType: 1
+      ItemsCount: 22
+    Reward:
+      RewardID: 2
+      RewardText: next island
+      RewardSprite: {fileID: 21300000, guid: 880c1b56d04922f4484f83f69d399077, type: 3}
+      NeedCameraFocus: 0
+      DescriptionText: 
