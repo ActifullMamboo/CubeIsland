@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e279cad0aea7b4da222af8cac863bf, type: 3}
+  m_Name: MambooSdkSettings
+  m_EditorClassIdentifier: 
+  qaBuild: 0
+  useIronSource: 1
+  useAppodeal: 1
+  useAppmetrica: 1
+  useFirebase: 1
+  useIAP: 1
+  appmetricaSettings: {fileID: 11400000, guid: 5b7166567f013114fa81104cb2c0d998, type: 2}
+  adjustSettings: {fileID: 11400000, guid: 91797d3e9b2ac6f4db48f885f4e57392, type: 2}
+  playerSettings: {fileID: 11400000, guid: d89a84703def1dd46b1205ab83141e52, type: 2}
+  adsSettings: {fileID: 11400000, guid: f2b9f372e645d1b479a629e6633b09fd, type: 2}
