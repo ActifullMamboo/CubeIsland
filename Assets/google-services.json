@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114644447819",
+    "project_id": "a3cc9da8b-e9d3-464a-b",
+    "storage_bucket": "a3cc9da8b-e9d3-464a-b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114644447819:android:3f53e919d71cd64a5f53ce",
+        "android_client_info": {
+          "package_name": "com.amazon.mamboo.cube.island"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCepLU6qV_VWlvp3rhfUL-STBJ8xSCknPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
