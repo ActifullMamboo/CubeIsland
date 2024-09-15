@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c1772dd-3ef2-40b3-a606-89e8d5d0d788" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.172.meta" beforeDir="false" />

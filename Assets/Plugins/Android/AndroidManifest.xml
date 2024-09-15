@@ -24,6 +24,12 @@
     <action android:name="com.amazon.inapp.purchasing.NOTIFY" />
   </intent-filter>
 </receiver>
+
+<receiver android:name="com.amazon.device.iap.ResponseReceiver" android:exported="true" android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY">
+  <intent-filter>
+    <action android:name="com.amazon.inapp.purchasing.NOTIFY" />
+  </intent-filter>
+</receiver>
 </application>
   <uses-feature android:name="android.hardware.location" android:required="false" />
   <uses-feature android:name="android.hardware.location.gps" android:required="false" />
